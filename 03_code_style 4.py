@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from typing import List
 
 # блоки кода
 
@@ -76,8 +77,7 @@ my_list = [2, 3, 4, 5, 6, ]
 
 # reformat кода
 
-[x, y] = 3, 8
-
+x, y = 3, 8
 if x == 3:
     print(42)
 
@@ -88,20 +88,19 @@ if not x >= 0:
     else:
         print('направо!')
 else:
-    print(
-        'стой!')
+    print('стой!')
 
 # названия переменных
 
-count_of_my_pets = 34
-if count_of_my_pets > 10:
+count = 34
+if count > 10:
     print('I need more space for my pets!')
 
-my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
-if 'lion' in my_favorite_pets_and_bird:
+my_favorite = ['cat', 'wolf', 'ostrich']
+if 'lion' in my_favorite:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+my_favorite = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -114,9 +113,9 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
-l = 34
-I = 43
-if l > I:
+a = 34
+b = 43
+if a > b:
     print()
 O = 9
 if O > 0:
@@ -137,8 +136,8 @@ if O > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
-ss = ['cat', 'wolf', 'ostrich']
-if 'lion' in ss:
+my_favorite = ['cat', 'wolf', 'ostrich']
+if 'lion' in my_favorite:
     print('Wow!')
 
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
