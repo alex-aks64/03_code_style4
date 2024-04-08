@@ -117,8 +117,8 @@ a = 34
 b = 43
 if a > b:
     print()
-O = 9
-if O > 0:
+c = 9
+if c > 0:
     print()
 
 # lowercase (слово в нижнем регистре)
